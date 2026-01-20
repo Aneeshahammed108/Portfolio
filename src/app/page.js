@@ -5,7 +5,6 @@ import Contact from "@/Pages/Contact/Contact";
 import Experience from "@/Pages/Experience/Experience";
 import Home from "@/Pages/Home/Home";
 import Projects from "@/Pages/Projects/Projects";
-import React from 'react';
 export default function Page() {
   return (
     <div>

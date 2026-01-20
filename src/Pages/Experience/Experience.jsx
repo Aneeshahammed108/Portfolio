@@ -39,8 +39,8 @@ const useReveal = () => {
 
 const Experience = () => {
   const headerRef = useReveal();
-  const expRef = useReveal();
-  const learnRef = useReveal();
+  const exp1Ref = useReveal();
+  const exp2Ref = useReveal();
 
   return (
     <div
@@ -58,92 +58,110 @@ const Experience = () => {
         </h1>
 
         <p className="font-inter text-gray-300 max-w-2xl text-lg leading-relaxed">
-          My journey as a frontend developer, focused on building real-world
-          projects, strengthening core fundamentals, and improving UI quality
-          through consistent practice.
+          Hands-on frontend development experience through internships and
+          real-world projects, focused on building scalable, responsive, and
+          performance-optimized web applications.
         </p>
       </section>
 
-      {/* ================= EXPERIENCE BLOCK ================= */}
+      {/* ================= EXPERIENCE 1 ================= */}
       <section
-        ref={expRef}
+        ref={exp1Ref}
         className="mt-20 px-8 md:px-16 max-w-[1100px] mx-auto reveal"
       >
         <div className="bg-white/5 border border-white/10 rounded-xl p-8 hover:border-emerald-400/50 transition">
-          <h2 className="font-montserrat text-2xl font-semibold mb-2">
-            Frontend Developer (Self-Driven Projects)
+          <h2 className="font-montserrat text-2xl font-semibold mb-1">
+            Frontend Development Intern
           </h2>
 
-          <p className="text-sm text-emerald-400 mb-4">
-            2024 – Present
+          <p className="text-sm text-emerald-400 mb-2">
+            Karva Technologies · Oct 2025 – Dec 2025 · Coimbatore, India
           </p>
 
           <p className="font-inter text-gray-300 leading-relaxed mb-6">
-            Actively developing frontend applications using modern web
-            technologies. Focused on writing clean, maintainable code and
-            building responsive user interfaces that reflect real-world
-            application behavior.
+            Worked on real-world frontend applications, including an HRMS
+            platform, focusing on scalable UI architecture, REST API integration,
+            and performance optimization.
           </p>
 
           <ul className="space-y-3 text-gray-300 text-sm list-disc list-inside">
-            <li>Built responsive web applications using React and Next.js</li>
-            <li>Designed reusable UI components with Tailwind CSS</li>
-            <li>Developed e-commerce and dashboard-style interfaces</li>
-            <li>Improved performance, accessibility, and UI consistency</li>
-            <li>Followed component-based architecture and clean code practices</li>
+            <li>
+              Developed and maintained an HRMS web application using Next.js,
+              React.js, and Tailwind CSS
+            </li>
+            <li>
+              Built dashboard-driven UI components for employee management,
+              attendance, payroll, leave, and performance modules
+            </li>
+            <li>
+              Implemented reusable, component-based architecture for scalable
+              frontend development
+            </li>
+            <li>
+              Integrated REST APIs for dynamic data handling and real-time UI
+              updates
+            </li>
+            <li>
+              Optimized frontend performance through improved state management
+              and efficient component rendering
+            </li>
+            <li>
+              Ensured responsive design and cross-browser compatibility across
+              devices
+            </li>
           </ul>
         </div>
       </section>
 
-      {/* ================= LEARNING & PRACTICE ================= */}
+      {/* ================= EXPERIENCE 2 ================= */}
       <section
-        ref={learnRef}
-        className="mt-24 px-8 md:px-16 max-w-[1100px] mx-auto reveal"
+        ref={exp2Ref}
+        className="mt-20 px-8 md:px-16 max-w-[1100px] mx-auto reveal"
       >
-        <h2 className="font-montserrat text-3xl font-semibold mb-10">
-          Learning & Practice
-        </h2>
+        <div className="bg-white/5 border border-white/10 rounded-xl p-8 hover:border-emerald-400/50 transition">
+          <h2 className="font-montserrat text-2xl font-semibold mb-1">
+            Frontend Development Intern
+          </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[
-            {
-              title: "Frontend Fundamentals",
-              desc: "Strong understanding of HTML, CSS, JavaScript (ES6), and responsive design principles.",
-            },
-            {
-              title: "Modern Frameworks",
-              desc: "Hands-on experience with React.js and Next.js for building scalable frontend applications.",
-            },
-            {
-              title: "UI & Performance",
-              desc: "Focused on clean UI, smooth animations, accessibility, and performance optimization.",
-            },
-          ].map((item) => (
-            <div
-              key={item.title}
-              className="bg-white/5 border border-white/10 rounded-lg p-6
-                         hover:border-emerald-400/60 transition hover:shadow-[0_0_20px_rgba(16,185,129,0.15)]"
-            >
-              <h3 className="font-montserrat text-lg font-semibold mb-2">
-                {item.title}
-              </h3>
-              <p className="font-inter text-sm text-gray-300 leading-relaxed">
-                {item.desc}
-              </p>
-            </div>
-          ))}
+          <p className="text-sm text-emerald-400 mb-2">
+            Login360 · May 2025 – Aug 2025 · Coimbatore, India
+          </p>
+
+          <p className="font-inter text-gray-300 leading-relaxed mb-6">
+            Gained hands-on experience in frontend fundamentals by developing
+            CRUD-based applications and integrating REST APIs.
+          </p>
+
+          <ul className="space-y-3 text-gray-300 text-sm list-disc list-inside">
+            <li>
+              Developed CRUD-based web applications using React.js with a focus
+              on component-based architecture
+            </li>
+            <li>
+              Implemented JavaScript (ES6) logic and HTML/CSS to build and style
+              user interfaces
+            </li>
+            <li>
+              Integrated REST APIs for create, read, update, and delete
+              operations
+            </li>
+            <li>
+              Ensured cross-browser compatibility and responsive behavior
+            </li>
+          </ul>
         </div>
       </section>
 
       {/* ================= CTA ================= */}
       <section className="mt-32 pb-20 text-center px-8">
         <h2 className="font-montserrat text-3xl md:text-4xl font-bold mb-6">
-          Ready to Build Something <span className="text-emerald-400">Great</span>?
+          Open to <span className="text-emerald-400">Frontend Opportunities</span>
         </h2>
 
         <p className="font-inter text-gray-300 max-w-xl mx-auto mb-8">
-          I’m open to frontend opportunities where I can contribute, learn, and
-          grow while building meaningful digital experiences.
+          I am actively seeking frontend developer (fresher) roles where I can
+          contribute to real-world projects, learn from experienced teams, and
+          continue growing as a frontend engineer.
         </p>
 
         <a

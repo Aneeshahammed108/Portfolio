@@ -46,9 +46,9 @@ const PROJECTS = [
       "A modern e-commerce frontend for purchasing gym accessories, fitness equipment, workout outfits, and supplements with a focus on clean UI and responsive design.",
     tech: ["Next.js", "React", "Tailwind CSS", "JavaScript"],
     image:
-      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1200&q=80",
-    live: "#",
-    github: "#",
+      "/images/gym.avif",
+    live: "https://muscle-hub-six.vercel.app",
+    github: "https://github.com/Aneeshahammed108/Muscle-hub",
   },
   {
     title: "Frontend Portfolio Website",
@@ -56,7 +56,7 @@ const PROJECTS = [
       "A personal portfolio website built with Next.js and Tailwind CSS to showcase projects and skills.",
     tech: ["Next.js", "React", "Tailwind CSS"],
     image:
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+      "/images/portfolio.avif",
     live: "#",
     github: "#",
   },
@@ -66,7 +66,7 @@ const PROJECTS = [
       "A responsive e-commerce UI featuring product listings and reusable components.",
     tech: ["React", "CSS", "JavaScript"],
     image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
+      "/images/E-commerce.avif",
     live: "#",
     github: "#",
   },
@@ -76,7 +76,7 @@ const PROJECTS = [
       "A clean admin dashboard interface focusing on layout structure and performance.",
     tech: ["React", "Tailwind CSS"],
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "/images/dashboard.avif",
     live: "#",
     github: "#",
   },
