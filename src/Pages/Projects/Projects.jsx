@@ -115,9 +115,7 @@ const Projects = () => {
         {PROJECTS.map((project) => (
           <div
             key={project.title}
-            className="group rounded-xl overflow-hidden bg-white/5 border border-white/10
-                       hover:border-emerald-400/60 transition-all duration-300
-                       hover:shadow-[0_0_30px_rgba(16,185,129,0.15)]"
+            className="group rounded-xl overflow-hidden bg-white/5 border border-white/10 hover:border-emerald-400/60 transition-all duration-300  hover:shadow-[0_0_30px_rgba(16,185,129,0.15)]"
           >
             {/* IMAGE */}
             <div className="relative h-52 overflow-hidden">
@@ -157,17 +155,13 @@ const Projects = () => {
               <div className="flex gap-4">
                 <a
                   href={project.live}
-                  className="text-sm font-semibold text-white border border-white/30
-                             px-5 py-2 rounded-sm hover:border-emerald-400
-                             hover:text-emerald-400 transition"
+                  className="text-sm font-semibold text-white border border-white/30  px-5 py-2 rounded-sm hover:border-emerald-400  hover:text-emerald-400 transition"
                 >
                   Live Demo
                 </a>
                 <a
                   href={project.github}
-                  className="text-sm font-semibold text-white border border-white/30
-                             px-5 py-2 rounded-sm hover:border-emerald-400
-                             hover:text-emerald-400 transition"
+                  className="text-sm font-semibold text-white border border-white/30  px-5 py-2 rounded-sm hover:border-emerald-400   hover:text-emerald-400 transition"
                 >
                   GitHub
                 </a>

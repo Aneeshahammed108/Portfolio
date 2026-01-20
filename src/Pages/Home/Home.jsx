@@ -64,19 +64,14 @@ const Home = () => {
             <h1>
               {/* I AM – bright and clear */}
               <span
-                className="block font-montserrat font-extrabold text-5xl md:text-8xl
-                           tracking-tighter leading-[0.9] text-white
-                           drop-shadow-[0_4px_22px_rgba(255,255,255,0.35)]
-                           opacity-0 animate-slide-up"
+                className="block font-montserrat font-extrabold text-5xl md:text-8xl  tracking-tighter leading-[0.9] text-white   drop-shadow-[0_4px_22px_rgba(255,255,255,0.35)] opacity-0 animate-slide-up"
               >
                 I AM
               </span>
 
               {/* NAME */}
               <span
-                className="block font-montserrat font-extrabold text-5xl md:text-8xl
-                           tracking-tighter leading-[0.9]
-                           opacity-0 animate-slide-up delay-200"
+                className="block font-montserrat font-extrabold text-5xl md:text-8xl tracking-tighter leading-[0.9]  opacity-0 animate-slide-up delay-200"
               >
                 <span className="bg-gradient-to-r from-white via-emerald-200 to-white bg-clip-text text-transparent">
                   ANEESH <br /> AHAMMED
@@ -85,10 +80,7 @@ const Home = () => {
             </h1>
 
             <p
-              className="font-inter text-gray-100 max-w-xl leading-relaxed text-base md:text-lg
-                         font-light tracking-wide border-l-2 border-emerald-400 pl-6
-                         drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]
-                         opacity-0 animate-slide-up delay-400"
+              className="font-inter text-gray-100 max-w-xl leading-relaxed text-base md:text-lg font-light tracking-wide border-l-2 border-emerald-400 pl-6  drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]   opacity-0 animate-slide-up delay-400"
             >
               I build responsive, high-performance web applications with a strong
               focus on clean UI, accessibility, and user experience.
@@ -96,16 +88,11 @@ const Home = () => {
 
             {/* CTA BUTTONS */}
             <div className="flex flex-wrap gap-5 pt-6 opacity-0 animate-slide-up delay-600">
-              <button className="font-montserrat bg-emerald-600 hover:bg-emerald-500
-                                 text-white px-8 py-3.5 rounded-sm font-bold tracking-wider
-                                 text-sm transition-all hover:scale-105 shadow-lg">
+              <button className="font-montserrat bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-3.5 rounded-sm font-bold tracking-wider text-sm transition-all hover:scale-105 shadow-lg">
                 Download Resume ↓
               </button>
 
-              <button className="font-montserrat px-8 py-3.5 rounded-sm font-bold tracking-wider
-                                 text-sm text-white border border-white/40
-                                 hover:border-emerald-400 hover:text-emerald-400
-                                 transition backdrop-blur-sm bg-white/5">
+              <button className="font-montserrat px-8 py-3.5 rounded-sm font-bold tracking-wider  text-sm text-white border border-white/40  hover:border-emerald-400 hover:text-emerald-400 transition backdrop-blur-sm bg-white/5">
                 View Projects
               </button>
             </div>
@@ -113,20 +100,16 @@ const Home = () => {
 
           {/* RIGHT – FRONTEND DEVELOPER (LOWER PLACEMENT) */}
           <div
-            className="hidden md:flex md:col-span-5 justify-end items-end
-                       mt-56 pb-4 opacity-0 animate-slide-left delay-800"
+            className="hidden md:flex md:col-span-5 justify-end items-end mt-56 pb-4 opacity-0 animate-slide-left delay-800"
           >
             <div className="relative animate-float">
               <div className="absolute -inset-14 bg-emerald-500/20 blur-[70px] rounded-full" />
 
               <div className="relative text-right">
-                <div className="font-montserrat text-4xl md:text-5xl
-                                font-bold text-white/90 tracking-tighter">
+                <div className="font-montserrat text-4xl md:text-5xl  font-bold text-white/90 tracking-tighter">
                   A FRONTEND
                 </div>
-                <div className="font-montserrat text-4xl md:text-5xl
-                                font-bold text-white tracking-tighter
-                                flex items-center justify-end gap-3 mt-2">
+                <div className="font-montserrat text-4xl md:text-5xl font-bold text-white tracking-tighter   flex items-center justify-end gap-3 mt-2">
                   DEVELOPER
                   <span className="text-emerald-400 animate-pulse">{'</>'}</span>
                 </div>

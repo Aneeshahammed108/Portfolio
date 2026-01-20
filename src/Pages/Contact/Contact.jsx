@@ -94,9 +94,7 @@ const Contact = () => {
               placeholder="Your Name"
               value={form.name}
               onChange={handleChange}
-              className="w-full bg-black/50 border border-white/20 rounded-md px-4 py-3
-                         text-sm text-white placeholder-gray-400
-                         focus:outline-none focus:border-emerald-400 transition"
+              className="w-full bg-black/50 border border-white/20 rounded-md px-4 py-3 text-sm text-white placeholder-gray-400   focus:outline-none focus:border-emerald-400 transition"
             />
 
             <input
@@ -105,9 +103,7 @@ const Contact = () => {
               placeholder="Your Email"
               value={form.email}
               onChange={handleChange}
-              className="w-full bg-black/50 border border-white/20 rounded-md px-4 py-3
-                         text-sm text-white placeholder-gray-400
-                         focus:outline-none focus:border-emerald-400 transition"
+              className="w-full bg-black/50 border border-white/20 rounded-md px-4 py-3  text-sm text-white placeholder-gray-400   focus:outline-none focus:border-emerald-400 transition"
             />
 
             <textarea
@@ -116,16 +112,12 @@ const Contact = () => {
               rows="5"
               value={form.message}
               onChange={handleChange}
-              className="w-full bg-black/50 border border-white/20 rounded-md px-4 py-3
-                         text-sm text-white placeholder-gray-400 resize-none
-                         focus:outline-none focus:border-emerald-400 transition"
+              className="w-full bg-black/50 border border-white/20 rounded-md px-4 py-3 text-sm text-white placeholder-gray-400 resize-none   focus:outline-none focus:border-emerald-400 transition"
             />
 
             <button
               type="button"
-              className="font-montserrat font-bold tracking-wide text-sm
-                         px-8 py-3 rounded-sm bg-emerald-600 text-white
-                         hover:bg-emerald-500 transition"
+              className="font-montserrat font-bold tracking-wide text-sm   px-8 py-3 rounded-sm bg-emerald-600 text-white   hover:bg-emerald-500 transition"
             >
               Send Message →
             </button>
@@ -169,8 +161,7 @@ const Contact = () => {
                 <a
                   key={item.name}
                   href={item.link}
-                  className="text-sm px-4 py-2 border border-white/30 rounded-sm
-                             hover:border-emerald-400 hover:text-emerald-400 transition"
+                  className="text-sm px-4 py-2 border border-white/30 rounded-sm hover:border-emerald-400 hover:text-emerald-400 transition"
                 >
                   {item.name}
                 </a>

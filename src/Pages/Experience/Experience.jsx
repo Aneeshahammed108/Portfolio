@@ -166,9 +166,7 @@ const Experience = () => {
 
         <a
           href="/Contact"
-          className="inline-block font-montserrat font-bold tracking-wide
-                     px-8 py-3 rounded-sm bg-emerald-600 text-white
-                     hover:bg-emerald-500 transition"
+          className="inline-block font-montserrat font-bold tracking-wide   px-8 py-3 rounded-sm bg-emerald-600 text-white   hover:bg-emerald-500 transition"
         >
           Contact Me →
         </a>

@@ -110,13 +110,10 @@ const Blogs = () => {
         {BLOGS.map((blog) => (
           <div
             key={blog.title}
-            className="bg-white/5 border border-white/10 rounded-xl p-6
-                       hover:border-emerald-400/60 transition
-                       hover:shadow-[0_0_25px_rgba(16,185,129,0.15)]"
+            className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-emerald-400/60 transition hover:shadow-[0_0_25px_rgba(16,185,129,0.15)]"
           >
             {/* TAG */}
-            <span className="inline-block mb-4 text-xs font-semibold tracking-wide
-                             px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-400">
+            <span className="inline-block mb-4 text-xs font-semibold tracking-wide px-3 py-1 rounded-full bg-emerald-500/15 text-emerald-400">
               {blog.tag}
             </span>
 
