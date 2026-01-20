@@ -84,9 +84,10 @@ const About = () => {
         ].map((item) => (
           <div
             key={item.title}
-            className="group p-6 rounded-xl bg-white/5 border border-white/10
-                       hover:border-emerald-400/60 transition-all duration-300
-                       hover:shadow-[0_0_25px_rgba(16,185,129,0.15)]"
+            className={`group p-6 rounded-xl bg-white/5 border border-white/10
+hover:border-emerald-400/60 transition-all duration-300
+hover:shadow-[0_0_25px_rgba(16,185,129,0.15)]`}
+
           >
             <h3 className="font-montserrat text-lg font-semibold mb-2 group-hover:text-emerald-400 transition">
               {item.title}
