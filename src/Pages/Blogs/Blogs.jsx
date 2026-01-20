@@ -37,28 +37,42 @@ const useReveal = () => {
   return ref;
 };
 
-/* ================= BLOG DATA ================= */
+/* ================= BLOG DATA (RESUME-BASED) ================= */
 const BLOGS = [
   {
-    title: "Building Scalable Frontend Applications with React",
+    title: "Building an HRMS Dashboard with Next.js & React",
     excerpt:
-      "Key principles and best practices I follow when structuring scalable and maintainable React applications.",
+      "My experience working on a real-world HRMS application during my internship, focusing on dashboards, reusable components, and REST API integration.",
+    date: "Coming Soon",
+    tag: "Next.js",
+  },
+  {
+    title: "How I Structured a Fitness E-Commerce Frontend (Muscle-Hub)",
+    excerpt:
+      "An overview of how I designed and built the Muscle-Hub e-commerce frontend with a focus on clean UI, responsiveness, and scalability.",
+    date: "Coming Soon",
+    tag: "E-Commerce",
+  },
+  {
+    title: "CRUD Applications in React: Lessons from My Internship",
+    excerpt:
+      "What I learned while building CRUD-based applications using React, JavaScript (ES6), and REST APIs during my frontend internship.",
     date: "Coming Soon",
     tag: "React",
   },
   {
-    title: "Why Clean UI Matters in Frontend Development",
+    title: "Component-Based Architecture: Writing Maintainable Frontend Code",
     excerpt:
-      "How clean design, spacing, and accessibility improve user experience and product quality.",
+      "How component-based architecture helped me write clean, reusable, and scalable frontend code in real-world projects.",
     date: "Coming Soon",
-    tag: "UI / UX",
+    tag: "Frontend",
   },
   {
-    title: "Next.js for Modern Frontend Projects",
+    title: "What Frontend Internships Taught Me About UI & Performance",
     excerpt:
-      "My experience using Next.js for performance, routing, and production-ready frontend apps.",
+      "Key takeaways from my frontend internships related to UI consistency, performance optimization, and cross-browser compatibility.",
     date: "Coming Soon",
-    tag: "Next.js",
+    tag: "Experience",
   },
 ];
 
@@ -82,8 +96,9 @@ const Blogs = () => {
         </h1>
 
         <p className="font-inter text-gray-300 max-w-2xl text-lg leading-relaxed">
-          I write about frontend development, UI best practices, and my learning
-          journey while building real-world web applications.
+          I write about my frontend development journey, real-world project
+          experience, and lessons learned while working with modern frontend
+          technologies.
         </p>
       </section>
 
@@ -106,7 +121,7 @@ const Blogs = () => {
             </span>
 
             {/* TITLE */}
-            <h3 className="font-montserrat text-lg font-semibold mb-3">
+            <h3 className="font-montserrat text-lg font-semibold mb-3 leading-snug">
               {blog.title}
             </h3>
 
@@ -124,16 +139,16 @@ const Blogs = () => {
         ))}
       </section>
 
-      {/* ================= COMING SOON ================= */}
+      {/* ================= NOTE ================= */}
       <section className="mt-32 pb-20 text-center px-8">
         <h2 className="font-montserrat text-2xl md:text-3xl font-bold mb-4">
-          More Articles Coming Soon
+          Writing in Progress ✍️
         </h2>
 
         <p className="font-inter text-gray-300 max-w-xl mx-auto">
-          I’m actively learning and documenting my frontend journey. New blog
-          posts will be added as I explore deeper concepts and real-world
-          solutions.
+          I’m currently converting my real project experience and internship
+          learnings into detailed articles. New blog posts will be published
+          soon.
         </p>
       </section>
 
