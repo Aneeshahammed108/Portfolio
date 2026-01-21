@@ -66,7 +66,7 @@ const PROJECTS = [
       "A responsive e-commerce UI featuring product listings and reusable components.",
     tech: ["React", "CSS", "JavaScript"],
     image:
-      "/images/E-commerce.avif",
+      "/images/portfolio.jpeg",
     live: "#",
     github: "#",
   },
