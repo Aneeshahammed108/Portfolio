@@ -57,8 +57,8 @@ const PROJECTS = [
     tech: ["Next.js", "React", "Tailwind CSS"],
     image:
       "/images/myport.png",
-    live: "#",
-    github: "#",
+    live: "https://aneesh-portfolio-three.vercel.app/",
+    github: "https://github.com/Aneeshahammed108/Portfolio",
   },
   {
     title: "E-Commerce UI",
