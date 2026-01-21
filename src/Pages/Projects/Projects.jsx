@@ -56,7 +56,7 @@ const PROJECTS = [
       "A personal portfolio website built with Next.js and Tailwind CSS to showcase projects and skills.",
     tech: ["Next.js", "React", "Tailwind CSS"],
     image:
-      "/images/portfolio.jpeg",
+      "/images/myport.png",
     live: "#",
     github: "#",
   },
