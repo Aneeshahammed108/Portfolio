@@ -61,14 +61,14 @@ const PROJECTS = [
     github: "https://github.com/Aneeshahammed108/Portfolio",
   },
   {
-    title: "E-Commerce UI",
+    title: "Luxury Real Estate Platform (Dubai UI)",
     description:
-      "A responsive e-commerce UI featuring product listings and reusable components.",
-    tech: ["React", "CSS", "JavaScript"],
+      "Luxury Real Estate Platform is a responsive web application showcasing premium property listings with a clean UI, reusable components, and smooth user interactions.",
+    tech: ["Next.js","React", "Tailwind CSS", "JavaScript"],
     image:
-      "/images/E-commerce.avif",
-    live: "#",
-    github: "#",
+      "/images/real-estate.png",
+    live: "https://real-estate-dubai-iota.vercel.app/",
+    github: "https://github.com/Aneeshahammed108/Real-Estate",
   },
   {
     title: "Dashboard Interface",
